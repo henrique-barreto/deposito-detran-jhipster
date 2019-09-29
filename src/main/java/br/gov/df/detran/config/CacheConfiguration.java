@@ -42,6 +42,8 @@ public class CacheConfiguration {
             createCache(cm, br.gov.df.detran.domain.User.class.getName());
             createCache(cm, br.gov.df.detran.domain.Authority.class.getName());
             createCache(cm, br.gov.df.detran.domain.User.class.getName() + ".authorities");
+            createCache(cm, br.gov.df.detran.domain.Perfil.class.getName());
+            createCache(cm, br.gov.df.detran.domain.Deposito.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
