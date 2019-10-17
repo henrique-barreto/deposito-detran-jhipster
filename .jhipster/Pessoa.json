@@ -1,24 +1,24 @@
 {
-    "name": "Perfil",
+    "name": "Pessoa",
     "fields": [
         {
             "fieldName": "nome",
             "fieldType": "String"
         },
         {
-            "fieldName": "ativo",
-            "fieldType": "Boolean"
+            "fieldName": "data",
+            "fieldType": "LocalDate"
         }
     ],
     "relationships": [],
-    "changelogDate": "20190929212204",
-    "entityTableName": "perfil",
+    "changelogDate": "20191017043516",
+    "entityTableName": "pessoa",
     "dto": "no",
-    "pagination": "pagination",
+    "pagination": "no",
     "service": "no",
     "jpaMetamodelFiltering": false,
     "fluentMethods": true,
+    "readOnly": false,
     "clientRootFolder": "",
-    "applications": "*",
-    "readOnly": false
+    "applications": "*"
 }
