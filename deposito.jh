@@ -6,6 +6,8 @@ entity Perfil {
 entity Deposito {
 	nome String
     ativo Boolean
+    data Date
+    dataTetset LocalDate
 }
 
 
