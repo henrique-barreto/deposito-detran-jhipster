@@ -8,6 +8,11 @@ entity Deposito {
     ativo Boolean
 }
 
+entity Pessoa {
+	nome String
+    data LocalDate
+}
+
 
 paginate Deposito with pagination
 paginate Perfil with pagination

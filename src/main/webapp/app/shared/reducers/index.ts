@@ -19,6 +19,10 @@ import perfil, {
 import deposito, {
   DepositoState
 } from 'app/entities/deposito/deposito.reducer';
+// prettier-ignore
+import pessoa, {
+  PessoaState
+} from 'app/entities/pessoa/pessoa.reducer';
 /* jhipster-needle-add-reducer-import - JHipster will add reducer here */
 
 export interface IRootState {
@@ -33,6 +37,7 @@ export interface IRootState {
   readonly settings: SettingsState;
   readonly perfil: PerfilState;
   readonly deposito: DepositoState;
+  readonly pessoa: PessoaState;
   /* jhipster-needle-add-reducer-type - JHipster will add reducer type here */
   readonly loadingBar: any;
 }
@@ -49,6 +54,7 @@ const rootReducer = combineReducers<IRootState>({
   settings,
   perfil,
   deposito,
+  pessoa,
   /* jhipster-needle-add-reducer-combine - JHipster will add reducer here */
   loadingBar
 });
